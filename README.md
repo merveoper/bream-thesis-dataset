@@ -5,8 +5,8 @@
 *M. Öper, "Design of a Digital Twin for Predictive Maintenance Applications in the Steel Industry", Kadir Has University, 2026.*
 
 **DOI:** not yet assigned. <!-- fill in after the GitHub/Zenodo release -->
-**Version:** <!-- fill in -->
-**Licence:** <!-- fill in -->
+**Version:** 1.0.0
+**Licence:** CC BY 4.0
 
 ---
 
@@ -114,7 +114,7 @@ All three are block-RMS velocity series in mm/s with the same `Value` column and
 
 ```
 export_manifest.json          group-level inventory (paths, file counts, points, RMS means)
-DATASET_README.md             this document
+README.md                     this document
 normal/                       normal_001.csv … normal_050.csv
 unbalance_statistical/
     034p3g/                   unbalance_034p3g_001.csv … _050.csv
