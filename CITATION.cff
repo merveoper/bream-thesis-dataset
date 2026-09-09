@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "BREAM thesis dataset: rotating-machinery vibration data for predictive-maintenance research"
+authors:
+  - family-names: "Öper"
+    given-names: "Merve"
+    affiliation: "Kadir Has University; Borçelik"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # fill in if you have one
+version: "1.0.0"
+date-released: "2026-09-09"   # set to the actual release date
+license: CC-BY-4.0
+# doi: "10.5281/zenodo.XXXXXXX"   # fill in after the Zenodo release
+repository-code: "https://github.com/<user>/<repo>"   # fill in
+keywords:
+  - predictive maintenance
+  - vibration
+  - rotating machinery
+  - digital twin
+  - unbalance
+  - misalignment
+references:
+  - type: thesis
+    title: "Design of a Digital Twin for Predictive Maintenance Applications in the Steel Industry"
+    authors:
+      - family-names: "Öper"
+        given-names: "Merve"
+    institution:
+      name: "Kadir Has University"
+    year: 2026
+    thesis-type: "PhD thesis"

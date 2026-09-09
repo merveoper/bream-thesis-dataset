@@ -1,0 +1,192 @@
+{
+  "dataset": "BREAM thesis dataset",
+  "description": "RMS vibration-velocity recordings from a laboratory rotating-machinery rig (rotating unbalance, parallel misalignment, normal condition), one industrial field recording, and two derived signals used in the forecasting experiments of the thesis.",
+  "thesis": "Oper, M. (2026). Design of a Digital Twin for Predictive Maintenance Applications in the Steel Industry. Ph.D. thesis, Kadir Has University.",
+  "doi": null,
+  "version": null,
+  "licence": null,
+  "created": "2026-07-07T19:04:02",
+  "dry_run": false,
+  "format": {
+    "file_type": "csv",
+    "column": "Value",
+    "quantity": "RMS vibration velocity",
+    "unit": "mm/s",
+    "note": "raw sensor output multiplied by 1000"
+  },
+  "laboratory_acquisition": {
+    "sensor": "IFM VSA001",
+    "sensor_mount": "bearing nearest the fault",
+    "shaft_speed_rpm": 1000,
+    "shaft_speed_hz": 16.67,
+    "sampling_interval_ms": 655,
+    "nominal_recording_length_min": 10
+  },
+  "groups": {
+    "unb_stat_34p3g": {
+      "folder": "unbalance_statistical",
+      "fault": "unbalance",
+      "mass_g": 34.3,
+      "n_files": 50,
+      "n_points": 48654,
+      "rms_mean_mm_s": 10.864
+    },
+    "unb_calib_000p0g": {
+      "folder": "unbalance_calibration",
+      "fault": "unbalance",
+      "mass_g": 0.0,
+      "n_files": 3,
+      "n_points": 2970,
+      "rms_mean_mm_s": 1.82
+    },
+    "unb_calib_011p8g": {
+      "folder": "unbalance_calibration",
+      "fault": "unbalance",
+      "mass_g": 11.8,
+      "n_files": 3,
+      "n_points": 2871,
+      "rms_mean_mm_s": 2.809
+    },
+    "unb_calib_022p6g": {
+      "folder": "unbalance_calibration",
+      "fault": "unbalance",
+      "mass_g": 22.6,
+      "n_files": 3,
+      "n_points": 2853,
+      "rms_mean_mm_s": 5.716
+    },
+    "unb_calib_045p8g": {
+      "folder": "unbalance_calibration",
+      "fault": "unbalance",
+      "mass_g": 45.8,
+      "n_files": 3,
+      "n_points": 2991,
+      "rms_mean_mm_s": 13.497
+    },
+    "unb_calib_052p8g": {
+      "folder": "unbalance_calibration",
+      "fault": "unbalance",
+      "mass_g": 52.8,
+      "n_files": 3,
+      "n_points": 2901,
+      "rms_mean_mm_s": 15.947
+    },
+    "unb_calib_062p4g": {
+      "folder": "unbalance_calibration",
+      "fault": "unbalance",
+      "mass_g": 62.4,
+      "n_files": 3,
+      "n_points": 2895,
+      "rms_mean_mm_s": 19.222
+    },
+    "unb_calib_073p9g": {
+      "folder": "unbalance_calibration",
+      "fault": "unbalance",
+      "mass_g": 73.9,
+      "n_files": 3,
+      "n_points": 2892,
+      "rms_mean_mm_s": 25.306
+    },
+    "mis_stat_1p2mm": {
+      "folder": "misalignment_statistical",
+      "fault": "misalignment",
+      "offset_mm": 1.2,
+      "n_files": 50,
+      "n_points": 47853,
+      "rms_mean_mm_s": 8.299
+    },
+    "mis_stat_2p0mm": {
+      "folder": "misalignment_statistical",
+      "fault": "misalignment",
+      "offset_mm": 2.0,
+      "n_files": 50,
+      "n_points": 46268,
+      "rms_mean_mm_s": 11.666
+    },
+    "mis_calib_0p0mm": {
+      "folder": "misalignment_calibration",
+      "fault": "misalignment",
+      "offset_mm": 0.0,
+      "n_files": 3,
+      "n_points": 2898,
+      "rms_mean_mm_s": 4.014
+    },
+    "mis_calib_0p4mm": {
+      "folder": "misalignment_calibration",
+      "fault": "misalignment",
+      "offset_mm": 0.4,
+      "n_files": 3,
+      "n_points": 3346,
+      "rms_mean_mm_s": 6.1
+    },
+    "mis_calib_0p8mm": {
+      "folder": "misalignment_calibration",
+      "fault": "misalignment",
+      "offset_mm": 0.8,
+      "n_files": 3,
+      "n_points": 2825,
+      "rms_mean_mm_s": 6.8
+    },
+    "mis_calib_1p6mm": {
+      "folder": "misalignment_calibration",
+      "fault": "misalignment",
+      "offset_mm": 1.6,
+      "n_files": 3,
+      "n_points": 2673,
+      "rms_mean_mm_s": 8.8
+    },
+    "normal": {
+      "folder": "normal",
+      "fault": "none",
+      "n_files": 50,
+      "n_points": 48633,
+      "rms_mean_mm_s": 2.356
+    }
+  },
+  "derived": {
+    "field": {
+      "folder": "derived",
+      "file": "field_value.csv",
+      "kind": "measured",
+      "origin": "Borcelik operational recording, industrial fan, FNDE measurement point",
+      "n_samples": 85000,
+      "shaft_speed": "variable, not recorded",
+      "maintenance_interval_samples": [
+        36909,
+        37161
+      ],
+      "event_1_samples": [
+        0,
+        36909
+      ],
+      "event_2_samples": [
+        37162,
+        85000
+      ]
+    },
+    "demo": {
+      "folder": "derived",
+      "file": "demo_value.csv",
+      "kind": "semi-synthetic",
+      "origin": "real laboratory-rig segments arranged into a designed degradation path",
+      "n_samples": 40000
+    },
+    "twin": {
+      "folder": "derived",
+      "file": "twin_value.csv",
+      "kind": "generated",
+      "origin": "digital-twin pipeline, unbalance mechanism, designed ISO-band trajectory with hierarchical (T1) noise model",
+      "source_column": "rms_signal",
+      "n_samples": 65000,
+      "value_range_mm_s": [
+        0.26,
+        22.0
+      ]
+    }
+  },
+  "iso_10816_3_thresholds_mm_s": [
+    2.8,
+    11.2,
+    14.0
+  ]
+}
