@@ -8,9 +8,9 @@ authors:
     affiliation: "Kadir Has University; Borçelik"
     # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # fill in if you have one
 version: "1.0.0"
-date-released: "2026-09-09" 
+date-released: "2026-09-09"
 license: CC-BY-4.0
-# doi: "10.5281/zenodo.XXXXXXX"   # fill in after the Zenodo release
+doi: "10.5281/zenodo.22680719"
 repository-code: "https://github.com/merveoper/bream-thesis-dataset"
 keywords:
   - predictive maintenance

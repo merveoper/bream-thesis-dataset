@@ -1,11 +1,13 @@
 # BREAM Thesis Dataset — Documentation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22680719.svg)](https://doi.org/10.5281/zenodo.22680719)
+
 *Rotating-machinery vibration data for predictive-maintenance research.*
 *Released as the dataset accompanying the doctoral thesis*
 *M. Öper, "Design of a Digital Twin for Predictive Maintenance Applications in the Steel Industry", Kadir Has University, 2026.*
 
-**DOI:** not yet assigned. <!-- fill in after the GitHub/Zenodo release -->
-**Version:** 1.0.0
+**DOI:** [10.5281/zenodo.22680719](https://doi.org/10.5281/zenodo.22680719) (all versions)  
+**Version:** 1.0.0  
 **Licence:** CC BY 4.0
 
 ---
@@ -141,11 +143,11 @@ Level codes use `p` for the decimal point: `034p3g` is 34.3 g, `1p2mm` is 1.2 mm
 
 ## 6. Citation
 
-Until a DOI is assigned, please cite the thesis:
+> Öper, M. (2026). *BREAM thesis dataset: rotating-machinery vibration data for predictive-maintenance research* (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22680719
+
+The accompanying thesis:
 
 > Öper, M. (2026). *Design of a Digital Twin for Predictive Maintenance Applications in the Steel Industry*. Ph.D. thesis, Kadir Has University, Istanbul.
-
-<!-- Replace with the DOI citation after the Zenodo release. -->
 
 ---
 
